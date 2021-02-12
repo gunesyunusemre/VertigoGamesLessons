@@ -11,6 +11,7 @@
             <e p="FirstLessonScript.cs" t="Include" />
             <e p="Lessons" t="Include">
               <e p="RotateObject.cs" t="Include" />
+              <e p="RotateSettings.cs" t="Include" />
             </e>
           </e>
         </e>

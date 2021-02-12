@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Lessons
+namespace FirstLessonsBasic.Lessons
 {
     public class RotateObject : MonoBehaviour
     {
-        [SerializeField] private float _speed = 1f;
-
+        [SerializeField] private RotateSettings _rotateSettings;
         private void Update()
         {
-            transform.Rotate(Vector3.up, _speed*Time.deltaTime);
+            transform.Rotate(Vector3.up, _rotateSettings.Speed*Time.deltaTime);
         }
     }
 }
