@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e7f45ff4ecc1e4a809d4554e9f2e17, type: 3}
   m_Name: Rigidbody_Settings_Default
   m_EditorClassIdentifier: 
-  _jumpForce: {x: 0, y: 0, z: 0}
+  _jumpForce: {x: 0, y: 5, z: 0}
