@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FirstLessonsBasic/Lessons/RotateObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FirstLessonsBasic/Lessons/RotateObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Rotate_Settings_Slow.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Rotate_Settings_Slow.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +17,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FirstLessonsBasic/Lessons/RotateSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FirstLessonsBasic/Lessons/RigidbodySettings.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/FirstLessonScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FirstLessonsBasic/Lessons/RotateSettings.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FirstLessonsBasic/Lessons/RotateObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FirstLessonsBasic/Lessons/ControlRigidbody.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FirstLessonsBasic/Lessons/RigidbodySettings.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oOuO3IgBGFF1b9Ux3l99n7yL5G" />
@@ -65,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613169928070</updated>
-      <workItem from="1613169933712" duration="1645000" />
+      <workItem from="1613169933712" duration="1810000" />
+      <workItem from="1613205897199" duration="631000" />
     </task>
     <servers />
   </component>
@@ -84,6 +88,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

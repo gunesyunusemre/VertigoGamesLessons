@@ -10,6 +10,8 @@
           <e p="FirstLessonsBasic" t="Include">
             <e p="FirstLessonScript.cs" t="Include" />
             <e p="Lessons" t="Include">
+              <e p="ControlRigidbody.cs" t="Include" />
+              <e p="RigidbodySettings.cs" t="Include" />
               <e p="RotateObject.cs" t="Include" />
               <e p="RotateSettings.cs" t="Include" />
             </e>
