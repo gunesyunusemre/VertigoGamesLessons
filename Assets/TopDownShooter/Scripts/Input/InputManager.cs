@@ -10,6 +10,7 @@ namespace TopDownShooter.Scripts.Input
         {
             _inputData.Horizontal = UnityEngine.Input.GetAxis("Horizontal");
             _inputData.Vertical = UnityEngine.Input.GetAxis("Vertical");
+            _inputData.Jump = UnityEngine.Input.GetAxis("Jump");
         }
     }
 }

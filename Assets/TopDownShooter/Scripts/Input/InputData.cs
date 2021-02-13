@@ -7,5 +7,6 @@ namespace TopDownShooter.Scripts.Input
     {
         public float Horizontal;
         public float Vertical;
+        public float Jump;
     }
 }

@@ -16,6 +16,8 @@ namespace TopDownShooter.Scripts.Movement
                                     (_inputData.Vertical * _playerMovementSettings.VerticalSettings)));
             _rigidbody.MovePosition(_rigidbody.position+(_rigidbody.transform.right * 
                                     (_inputData.Horizontal * _playerMovementSettings.HorizontalSettings)));
+            _rigidbody.MovePosition(_rigidbody.position+(_rigidbody.transform.up * 
+                                                         (_inputData.Jump*_playerMovementSettings.JumpSettings)));
         }
     }
 }
