@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace TopDownShooter.Scripts.Input
 {
     public class InputManager : MonoBehaviour
     {
-        [SerializeField] private InputData _inputData;
-
+        [SerializeField] private InputData[] _inputDataArray;
         private void Update()
         {
-            _inputData.Horizontal = UnityEngine.Input.GetAxis("Horizontal");
-            _inputData.Vertical = UnityEngine.Input.GetAxis("Vertical");
-            _inputData.Jump = UnityEngine.Input.GetAxis("Jump");
+            for (int i = 0; i < _inputDataArray.Length; i++)
+            {
+                _inputDataArray[i].ProcessInput();
+            }
         }
     }
 }
