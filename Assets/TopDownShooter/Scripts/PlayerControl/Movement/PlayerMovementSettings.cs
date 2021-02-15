@@ -5,13 +5,10 @@ namespace TopDownShooter.Scripts.PlayerControl
     [CreateAssetMenu(menuName = "TopDown Shooter/Player/Movement Settings")]
     public class PlayerMovementSettings : ScriptableObject
     {
-        [SerializeField] private float _horizontalSettings=5;
-        public float HorizontalSettings => _horizontalSettings;
+        [SerializeField] private float _horizontalSpeed=5;
+        public float HorizontalSpeed => _horizontalSpeed;
         
-        [SerializeField] private float _verticalSettings=5;
-        public float VerticalSettings => _verticalSettings;
-
-        [SerializeField] private float _jumpSettings = 1;
-        public float JumpSettings => _jumpSettings;
+        [SerializeField] private float _verticalSpeed=5;
+        public float VerticalSpeed => _verticalSpeed;
     }
 }
