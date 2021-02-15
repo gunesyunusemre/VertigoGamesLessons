@@ -6,14 +6,38 @@
     <e p="E:\UnityProject\VertigoGamesLessons" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Scripts" t="Include">
-          <e p="FirstLessonsBasic" t="Include">
-            <e p="FirstLessonScript.cs" t="Include" />
-            <e p="Lessons" t="Include">
-              <e p="ControlRigidbody.cs" t="Include" />
-              <e p="RigidbodySettings.cs" t="Include" />
-              <e p="RotateObject.cs" t="Include" />
-              <e p="RotateSettings.cs" t="Include" />
+        <e p="Lessons" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="FirstLessonsBasic" t="Include">
+              <e p="FirstLessonScript.cs" t="Include" />
+              <e p="Lessons" t="Include">
+                <e p="ControlRigidbody.cs" t="Include" />
+                <e p="RigidbodySettings.cs" t="Include" />
+                <e p="RotateObject.cs" t="Include" />
+                <e p="RotateSettings.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="TopDownShooter" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Camera" t="Include">
+              <e p="CameraController.cs" t="Include" />
+              <e p="CameraSettings.cs" t="Include" />
+            </e>
+            <e p="Input" t="Include">
+              <e p="InputData.cs" t="Include" />
+              <e p="InputManager.cs" t="Include" />
+            </e>
+            <e p="PlayerControl" t="Include">
+              <e p="Movement" t="Include">
+                <e p="PlayerMovementController.cs" t="Include" />
+                <e p="PlayerMovementSettings.cs" t="Include" />
+              </e>
+              <e p="TowerRotation" t="Include">
+                <e p="TowerRotationController.cs" t="Include" />
+                <e p="TowerRotationSetting.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
