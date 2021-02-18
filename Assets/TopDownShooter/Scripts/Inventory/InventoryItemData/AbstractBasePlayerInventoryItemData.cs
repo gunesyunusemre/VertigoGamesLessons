@@ -6,5 +6,10 @@ namespace TopDownShooter.Scripts.Inventory
     {
         public abstract void CreateIntoInventory(PlayerInventoryController targetPlayerInventoryController);
 
+        public virtual void Destroy()
+        {
+            Destroy(this);
+        }
+
     }
 }
