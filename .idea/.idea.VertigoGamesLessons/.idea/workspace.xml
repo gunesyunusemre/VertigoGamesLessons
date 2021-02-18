@@ -3,19 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="245bd34b-e32c-4cb0-a277-95ca4bd164d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VertigoGamesLessons/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lessons/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lessons/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Prefabs/LocalPlayer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/Prefabs/LocalPlayer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scene/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/Scene/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/ScriptableObjects/InputData_LocalPlayerBasicInput.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/ScriptableObjects/InputData_LocalPlayerBasicInput.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/ScriptableObjects/PlayerMovementSettings_LocalPlayer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/ScriptableObjects/PlayerMovementSettings_LocalPlayer.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Camera/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Camera/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Input/InputData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Input/InputData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Input/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Input/InputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Movement.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Movement/PlayerMovementController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Movement/PlayerMovementController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Movement/PlayerMovementSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Movement/PlayerMovementSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/AbstractBasePlayerInventoryItemData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/AbstractBasePlayerInventoryItemData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/PlayerInventoryCannonItemData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/PlayerInventoryCannonItemData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/PlayerInventoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/PlayerInventoryController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +23,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Manager/AbstractScriptableManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Manager/ManagerInitializerMono.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Manager/AbstractScriptableManagerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Input/InputData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/ScriptableShootManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/AbstractBasePlayerInventoryItemData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryMonoData/PlayerInventoryItemCannonMono.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryMonoData/PlayerInventoryBodyMono.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -43,15 +47,37 @@
       <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Shooting/ShootingManager.cs" />
       <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Movement/PlayerRotationController.cs" />
       <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Movement/PlayerMovementController.cs" />
-      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Camera/CameraController.cs" />
       <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/TowerRotation/TowerRotationSetting.cs" />
       <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/TowerRotation/TowerRotationController.cs" />
-      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/PlayerControl/Movement/PlayerMovementSettings.cs" />
-      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/PlayerControl/Movement/PlayerMovementController.cs" />
       <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/PlayerControl/TowerRotation/TowerRotationSetting.cs" />
       <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/PlayerControl/TowerRotation/TowerRotationController.cs" />
       <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Input/InputManager.cs" />
       <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Input/InputData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/PlayerControl/Movement/PlayerMovementSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/PlayerControl/Movement/PlayerMovementController.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Camera/CameraController.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/PlayerInventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/PlayerInventoryCannonData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/PlayerInventoryCannonItamData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/PlayerInventoryBodyItemData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/PlayerInventoryCannonItemData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/AbstractPlayerInventoryMono.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/AbstractPlayerInventoryItemData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryMonoData/PlayerInventoryCannonMono.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/PlayerInventoryItemDataBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryMonoData/PlayerInventoryItemCannonMono.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/AbstractPlayerInventoryItemData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryMonoData/PlayerInventoryBodyMono.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/PlayerInventoryBodyItemData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/AbstractBasePlayerInventoryItemData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/ShootManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/InventoryItemData/PlayerInventoryCannonItemData.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Manager/AbstractManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Manager/AbstractScriptableManagerBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Manager/AbstractScriptableManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/PlayerInventoryController.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Inventory/ScriptableShootManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/TopDownShooter/Scripts/Manager/ManagerInitializerMono.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1oOuO3IgBGFF1b9Ux3l99n7yL5G" />
@@ -97,7 +123,8 @@
       <workItem from="1613169933712" duration="1810000" />
       <workItem from="1613205897199" duration="6155000" />
       <workItem from="1613309856781" duration="4992000" />
-      <workItem from="1613392991295" duration="4239000" />
+      <workItem from="1613392991295" duration="9439000" />
+      <workItem from="1613646674152" duration="9970000" />
     </task>
     <servers />
   </component>

@@ -29,6 +29,26 @@
               <e p="InputData.cs" t="Include" />
               <e p="InputManager.cs" t="Include" />
             </e>
+            <e p="Inventory" t="Include">
+              <e p="InventoryItemData" t="Include">
+                <e p="AbstractBasePlayerInventoryItemData.cs" t="Include" />
+                <e p="AbstractPlayerInventoryItemData.cs" t="Include" />
+                <e p="PlayerInventoryBodyItemData.cs" t="Include" />
+                <e p="PlayerInventoryCannonItemData.cs" t="Include" />
+              </e>
+              <e p="InventoryMonoData" t="Include">
+                <e p="AbstractPlayerInventoryMono.cs" t="Include" />
+                <e p="PlayerInventoryBodyMono.cs" t="Include" />
+                <e p="PlayerInventoryItemCannonMono.cs" t="Include" />
+              </e>
+              <e p="PlayerInventoryController.cs" t="Include" />
+              <e p="ScriptableShootManager.cs" t="Include" />
+            </e>
+            <e p="Manager" t="Include">
+              <e p="AbstractScriptableManager.cs" t="Include" />
+              <e p="AbstractScriptableManagerBase.cs" t="Include" />
+              <e p="ManagerInitializerMono.cs" t="Include" />
+            </e>
             <e p="PlayerControl" t="Include">
               <e p="Movement" t="Include">
                 <e p="PlayerMovementController.cs" t="Include" />
