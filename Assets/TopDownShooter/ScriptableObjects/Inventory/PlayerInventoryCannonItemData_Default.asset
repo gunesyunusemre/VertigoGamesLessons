@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0664f09dca9a46242b1b1cfc5611a719, type: 3}
+  m_Name: PlayerInventoryCannonItemData_Default
+  m_EditorClassIdentifier: 
+  _itemID: Default_Cannon
+  _inventoryItemData: 0
+  _prefab: {fileID: -24760171524136093, guid: d45a5a52288a6b948867560a1796c659, type: 3}
