@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using TopDownShooter.Scripts.Stats;
 
 namespace TopDownShooter.Scripts.Inventory
 {
@@ -24,6 +25,12 @@ namespace TopDownShooter.Scripts.Inventory
             if (physic)
             {
                 Debug.Log("Collider: " +rHit.collider.name);
+                int colliderInstanceID = rHit.collider.GetInstanceID();
+
+                if (DamageableHelper.DamageableList.ContainsKey(colliderInstanceID))
+                {
+                    DamageableHelper.DamageableList[colliderInstanceID].Damage(5);
+                }
             }
         }
     }
