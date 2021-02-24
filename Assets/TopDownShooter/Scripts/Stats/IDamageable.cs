@@ -11,6 +11,11 @@ namespace TopDownShooter.Scripts.Stats
         {
             DamageableList.Add(damageable.InstanceID, damageable);
         }
+
+        public static void DestroyDamageable(this IDamageable damageable)
+        {
+            DamageableList.Remove(damageable.InstanceID);
+        }
     }
     
     public interface IDamageable

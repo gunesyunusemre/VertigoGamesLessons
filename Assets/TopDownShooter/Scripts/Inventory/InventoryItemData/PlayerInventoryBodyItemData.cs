@@ -8,7 +8,7 @@ namespace TopDownShooter.Scripts.Inventory
         public override void Initialize(PlayerInventoryController targetPlayerInventoryController)
         {
             var instantiated = 
-                InstantiateAndInitializePrefab(targetPlayerInventoryController.Parent);
+                InstantiateAndInitializePrefab(targetPlayerInventoryController.BodyParent);
             
             //body probs
             Debug.Log("This Class is Player Inventory Body Item Data");

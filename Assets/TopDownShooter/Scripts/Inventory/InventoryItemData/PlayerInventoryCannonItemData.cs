@@ -16,7 +16,7 @@ namespace TopDownShooter.Scripts.Inventory
         {
             base.Initialize(targetPlayerInventoryController);
             
-            InstantiateAndInitializePrefab(targetPlayerInventoryController.Parent);
+            InstantiateAndInitializePrefab(targetPlayerInventoryController.CannonParent);
             targetPlayerInventoryController.ReactiveShootCommand
                 .Subscribe(OnReactiveShootCommand)
                 .AddTo(_compositeDisposable);

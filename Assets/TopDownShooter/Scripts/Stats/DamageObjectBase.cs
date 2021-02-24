@@ -8,18 +8,38 @@ namespace TopDownShooter.Scripts.Stats
     {
         [SerializeField] private Collider _collider;
         public int InstanceID { get; private set; }
+        public float Health = 100f;
+        private Vector3 _deaultScale;
+        private float _defaultHealth;
+        
         
         protected  virtual void Awake()
         {
             InstanceID = _collider.GetInstanceID();
             this.InitializeDamageable();
+            _deaultScale = transform.localScale;
+            _defaultHealth = Health / 3f;
+        }
+
+        protected virtual void Destroy()
+        {
+            this.DestroyDamageable();
         }
         
         public virtual void Damage(float dmg)
         {
-            Debug.Log("You damaged me: "+dmg);
+            Health -= dmg;
+            Debug.Log("You damaged me: "+dmg+" Current Health: "+ Health);
+            if (Health<=0)
+            {
+                Destroy(gameObject);
+            }
         }
 
-        
+        private void Update()
+        {
+            transform.localScale = Vector3.Lerp(transform.localScale,(Health/100f)*_deaultScale,
+                Time.deltaTime*2f);
+        }
     }
 }
