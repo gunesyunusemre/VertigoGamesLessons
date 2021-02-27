@@ -287,6 +287,7 @@
           <e p="Scripts" t="Include">
             <e p="AI" t="Include">
               <e p="AIController.cs" t="Include" />
+              <e p="AITarget.cs" t="Include" />
               <e p="InputDataAI.cs" t="Include" />
               <e p="InputMovementDataAI.cs" t="Include" />
               <e p="InputRotationDataAI.cs" t="Include" />
