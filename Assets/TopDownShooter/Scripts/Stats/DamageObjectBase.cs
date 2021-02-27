@@ -1,4 +1,5 @@
 ﻿using System;
+using UniRx;
 using UnityEngine;
 
 namespace TopDownShooter.Scripts.Stats
@@ -11,7 +12,7 @@ namespace TopDownShooter.Scripts.Stats
         public float Health = 100f;
         private Vector3 _deaultScale;
         private float _defaultHealth;
-        
+        public ReactiveCommand onDeath = new ReactiveCommand();
         
         protected  virtual void Awake()
         {
@@ -32,14 +33,15 @@ namespace TopDownShooter.Scripts.Stats
             Debug.Log("You damaged me: "+dmg+" Current Health: "+ Health);
             if (Health<=0)
             {
+                onDeath.Execute();
                 Destroy(gameObject);
             }
         }
 
         private void Update()
         {
-            transform.localScale = Vector3.Lerp(transform.localScale,(Health/100f)*_deaultScale,
-                Time.deltaTime*2f);
+            /*transform.localScale = Vector3.Lerp(transform.localScale,(Health/100f)*_deaultScale,
+                Time.deltaTime*2f);*/
         }
     }
 }
