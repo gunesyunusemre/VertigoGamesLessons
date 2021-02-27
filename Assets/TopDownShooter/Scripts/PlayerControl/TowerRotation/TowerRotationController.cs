@@ -8,8 +8,14 @@ namespace TopDownShooter.Scripts.PlayerControl
     {
         [SerializeField] private InputData _rotationInput;
         [SerializeField] private Transform _towerTransform;
+        public Transform TowerTransform => _towerTransform;
         [SerializeField] private TowerRotationSetting _towerRotationSetting;
 
+        public void InitializeInput(InputData InputData)
+        {
+            _rotationInput = InputData;
+        }
+        
         private void Update()
         {
             _towerTransform.Rotate(0,

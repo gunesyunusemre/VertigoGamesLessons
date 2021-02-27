@@ -10,6 +10,11 @@ namespace TopDownShooter.Scripts.PlayerControl
         [SerializeField] private Transform _target;
         [SerializeField] private PlayerMovementSettings _playerMovementSettings;
 
+        public void InitializeInput(InputData InputData)
+        {
+            _inputData = InputData;
+        }
+        
         private void Update()
         {
             _rigidbody.MovePosition(_rigidbody.position+(_rigidbody.transform.forward * 

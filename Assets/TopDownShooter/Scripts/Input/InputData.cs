@@ -22,7 +22,7 @@ namespace TopDownShooter.Scripts.Input
         [SerializeField] private KeyCode NegativeVerticalKeyCode;
         [SerializeField] private float _increaseAmount=1f;
 
-        public void ProcessInput()
+        public virtual void ProcessInput()
         {
             if (_axisActive)
             {
